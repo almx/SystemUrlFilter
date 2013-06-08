@@ -4,7 +4,7 @@ SystemUrlFilter
 SystemUrlFilter is a small application that is made to filter out URL system calls on Windows. For example, if a game or application wants to spawn a browser window, which might be a nag, the application can be setup to interact the call and ignore it.
 
 Technical Background
-==============
+--------------
 
 When a system call with an HTTP or HTTPS URL is made, for example from an application or even via Start->Run, the application for handling the URL is found in the registry. Where depends on the browser you have installed. For example, for Firefox, the executable call is found in this key:
 
@@ -25,6 +25,7 @@ Setup
 2) Find the registry key relevant to your browser. The keys should be (only tested via Firefox):
 
 **Firefox**: HKEY_CLASSES_ROOT\FirefoxURL\shell\open\command
+
 **Chrome**: HKEY_CLASSES_ROOT\ChromeHTML\shell\open\command
 
 Change the value of the (Default) key to:
