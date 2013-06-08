@@ -19,14 +19,13 @@ The parameter %1 is the URL.
 Examples of calls that go through this path when spawning an URL include Excel, Adobe Flash updater, EverQuest's Free to Play nag browser window upon logging out, many install/setup programs, and more. The tool was specifically made for filtering EverQuest's nag browser window.
 
 Setup
-==============
+--------------
 
 1) Build or download SystemUrlFilter and place it in a directory of your choice.
 2) Find the registry key relevant to your browser. The keys should be (only tested via Firefox):
 
-**Firefox**: HKEY_CLASSES_ROOT\FirefoxURL\shell\open\command
-
-**Chrome**: HKEY_CLASSES_ROOT\ChromeHTML\shell\open\command
+- Firefox: HKEY_CLASSES_ROOT\FirefoxURL\shell\open\command
+- Chrome: HKEY_CLASSES_ROOT\ChromeHTML\shell\open\command
 
 Change the value of the (Default) key to:
 
