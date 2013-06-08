@@ -34,7 +34,7 @@ Change the value of the (Default) key to:
 That's it.
 
 Filters
-==============
+--------------
 
 Filters can be configured in the Filters.txt file found along with the executable. One filter per line.
 
@@ -45,7 +45,7 @@ You can prefix and/or postfix an URL you want to match with a *, which acts as a
 This will make the application block the URL "https://www.everquest.com/free-to-play" and similar, and prevent it from being opened in your browser.
 
 Configuration and Logging
-==============
+--------------
 
 The file SystemUrlFilter.exe.config contains a few configurable options:
 
