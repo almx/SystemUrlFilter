@@ -22,7 +22,7 @@ Setup
 --------------
 
 1) Build or download SystemUrlFilter and place it in a directory of your choice.  
-2) Configure it to match your system - see later section.
+2) Configure it to match your system - see later section.  
 3) Find the registry key relevant to your browser. The keys should be (only tested via Firefox):
 
 - Firefox: HKEY_CLASSES_ROOT\FirefoxURL\shell\open\command
