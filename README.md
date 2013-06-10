@@ -18,10 +18,15 @@ The parameter %1 is the URL.
 
 Examples of calls that go through this path when spawning an URL include Excel, Adobe Flash updater, EverQuest's Free to Play nag browser window upon logging out, many install/setup programs, and more. The tool was specifically made for filtering EverQuest's Free to Play nag browser window.
 
+Requirements
+--------------
+
+.NET Framework 4.0
+
 Setup
 --------------
 
-1.  Build or download SystemUrlFilter and place it in a directory of your choice.  
+1.  Build SystemUrlFilter and place SystemUrlFilter.exe in a directory of your choice.  
 2.  Configure it to match your system - see later section.  
 3.  Find the registry key relevant to your browser. The keys should be (only tested via Firefox):
 
